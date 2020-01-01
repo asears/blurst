@@ -41,6 +41,12 @@ func start
 
 After running func init to create the project, create a folder called Modules.  Copy the custom modules to the folder.
 
+### Install Custom Module from remote gist
+
+I leveraged Adam's script to point to the forked repo when installing, to workaround a wildcard versioning issue.  It can be run once, second time produces error around the file already existing.
+
+# https://gist.github.com/asears/4b4b40776bdda209b6072f7f6f3e1c97
+
 ## TODOs
 
 * Storage account or github url for random data tweet
@@ -48,6 +54,7 @@ After running func init to create the project, create a folder called Modules.  
 * Pester tests
 * Update docs
 * Additional Azure integration
+* Rate limiting / auth errors with Twitter dev account
 
 ## Contributions
 
